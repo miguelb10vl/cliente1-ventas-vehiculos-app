@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_XhoXQCMMEeu-C4ErgUdd8g">
+  <modelElement href="cliente1-ventas-vehiculos-app.uml#_YXBHICMMEeu-C4ErgUdd8g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aqfloCMMEeu-C4ErgUdd8g" sourceAnchor="430.0,0.0" targetAnchor="402.0,185.0" superClass="_aqp9sCMMEeu-C4ErgUdd8g" subClass="_aqDgwCMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_Ycom8CMMEeu-C4ErgUdd8g"/>
+    <bendpoints xmi:id="_zc4hMyMMEeu-C4ErgUdd8g" sourceY="-30" targetX="-103" targetY="55"/>
+    <bendpoints xmi:id="_zc4hNCMMEeu-C4ErgUdd8g" sourceX="103" sourceY="-30" targetY="55"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aqgzwCMMEeu-C4ErgUdd8g" sourceAnchor="662.0,0.0" targetAnchor="402.0,185.0" superClass="_aqp9sCMMEeu-C4ErgUdd8g" subClass="_aqK1gCMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YcpOACMMEeu-C4ErgUdd8g"/>
+    <bendpoints xmi:id="_zc4hNSMMEeu-C4ErgUdd8g" sourceY="-163" targetX="417" targetY="55"/>
+    <bendpoints xmi:id="_zc4hNiMMEeu-C4ErgUdd8g" sourceX="-417" sourceY="-163" targetY="55"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_arIe0CMMEeu-C4ErgUdd8g" sourceAnchor="354.0,0.0" targetAnchor="326.0,162.0" superClass="_arLiICMMEeu-C4ErgUdd8g" subClass="_aqTYYCMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YcpOASMMEeu-C4ErgUdd8g"/>
+    <bendpoints xmi:id="_zc36ICMMEeu-C4ErgUdd8g" sourceY="-28" targetX="170" targetY="27"/>
+    <bendpoints xmi:id="_zc4hMCMMEeu-C4ErgUdd8g" sourceX="-170" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_arIe0SMMEeu-C4ErgUdd8g" sourceAnchor="253.0,0.0" targetAnchor="326.0,162.0" superClass="_arLiICMMEeu-C4ErgUdd8g" subClass="_aqZfACMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_Ycp1ECMMEeu-C4ErgUdd8g"/>
+    <bendpoints xmi:id="_zc4hOSMMEeu-C4ErgUdd8g" sourceY="-141" targetX="-199" targetY="27"/>
+    <bendpoints xmi:id="_zc4hOiMMEeu-C4ErgUdd8g" sourceX="199" sourceY="-141" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aro1ICMMEeu-C4ErgUdd8g" sourceAnchor="373.0,0.0" targetAnchor="373.0,108.0" dashed="true" superClass="_arttoCMMEeu-C4ErgUdd8g" subClass="_arYWcCMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YcmKsCMMEeu-C4ErgUdd8g"/>
+    <bendpoints xmi:id="_zc4hNyMMEeu-C4ErgUdd8g" sourceY="-151" targetX="275" targetY="80"/>
+    <bendpoints xmi:id="_zc4hOCMMEeu-C4ErgUdd8g" sourceX="-275" sourceY="-151" targetY="80"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aro1ISMMEeu-C4ErgUdd8g" sourceAnchor="373.0,0.0" targetAnchor="373.0,108.0" dashed="true" superClass="_arttoCMMEeu-C4ErgUdd8g" subClass="_arfrMCMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_Ycv7sCMMEeu-C4ErgUdd8g"/>
+    <bendpoints xmi:id="_zc4hMSMMEeu-C4ErgUdd8g" sourceY="-30" targetX="-197" targetY="80"/>
+    <bendpoints xmi:id="_zc4hMiMMEeu-C4ErgUdd8g" sourceX="197" sourceY="-30" targetY="80"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aqTYYCMMEeu-C4ErgUdd8g" name="ScooterElectricidadEntity" generalizations="_arIe0CMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYH6YCMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_aqTYYSMMEeu-C4ErgUdd8g" position="-762.0,29.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aqTYYiMMEeu-C4ErgUdd8g" label="+"/>
+    <operations xmi:id="_aqTYYyMMEeu-C4ErgUdd8g" name="ScooterElectricidadEntity">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYJIgCMMEeu-C4ErgUdd8g"/>
+      <keywords xmi:id="_aqTYZCMMEeu-C4ErgUdd8g" keyword="create"/>
+      <visibility xmi:id="_aqTYZSMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aqTYZiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aqTYZyMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYJvlSMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_aqTYaCMMEeu-C4ErgUdd8g" name="ScooterElectricidadEntity">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYH6YCMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aqTYaSMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYJvkCMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqTYaiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqTYayMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqTYbCMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYJvkSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqTYbSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqTYbiMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqTYbyMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYJvkiMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqTYcCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqTYcSMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aqTYciMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYKWoCMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_aqTYcyMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aqTYdCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_arLiICMMEeu-C4ErgUdd8g" name="VehiculoScooterBase" abstractClass="true" subclassedBy="_arIe0CMMEeu-C4ErgUdd8g _arIe0SMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYVVwCMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_arLiISMMEeu-C4ErgUdd8g" position="-904.0,-188.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_arLiIiMMEeu-C4ErgUdd8g" label="+"/>
+    <attributes xmi:id="_arLiIyMMEeu-C4ErgUdd8g" name="modelo">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YdAaYCMMEeu-C4ErgUdd8g"/>
+      <stereotypes xmi:id="_arLiJCMMEeu-C4ErgUdd8g" name="LegacyStyledElement">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YdBogCMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <visibility xmi:id="_arLiJSMMEeu-C4ErgUdd8g" label="#"/>
+      <cardinality xmi:id="_arLiJiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <type xmi:id="_arLiJyMMEeu-C4ErgUdd8g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_arLiKCMMEeu-C4ErgUdd8g" name="color">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YdC2oCMMEeu-C4ErgUdd8g"/>
+      <stereotypes xmi:id="_arLiKSMMEeu-C4ErgUdd8g" name="LegacyStyledElement">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YdDdsCMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <visibility xmi:id="_arLiKiMMEeu-C4ErgUdd8g" label="#"/>
+      <cardinality xmi:id="_arMJMCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <type xmi:id="_arMJMSMMEeu-C4ErgUdd8g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_arMJMiMMEeu-C4ErgUdd8g" name="potencia">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YdEr0CMMEeu-C4ErgUdd8g"/>
+      <stereotypes xmi:id="_arMJMyMMEeu-C4ErgUdd8g" name="LegacyStyledElement">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YdF58CMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <visibility xmi:id="_arMJNCMMEeu-C4ErgUdd8g" label="#"/>
+      <cardinality xmi:id="_arMJNSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <type xmi:id="_arMJNiMMEeu-C4ErgUdd8g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_arMJNyMMEeu-C4ErgUdd8g" name="VehiculoScooterBase">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYXK8CMMEeu-C4ErgUdd8g"/>
+      <keywords xmi:id="_arMJOCMMEeu-C4ErgUdd8g" keyword="create"/>
+      <visibility xmi:id="_arMJOSMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_arMJOiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_arMJOyMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYXK9iMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_arMJPCMMEeu-C4ErgUdd8g" name="VehiculoScooterBase">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYVVwCMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_arMJPSMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYXK8SMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arMJPiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arMJPyMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arMJQCMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYXK8iMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arMJQSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arMJQiMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arMJQyMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYXK8yMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arMJRCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arMJRSMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_arMJRiMMEeu-C4ErgUdd8g" abstractOperation="true" name="mostrarCaracteristicas">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYXyACMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_arMJRyMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_arMJSCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ar8XICMMEeu-C4ErgUdd8g" name="AppTest">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYrUACMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_ar8XISMMEeu-C4ErgUdd8g" position="-2053.0,-117.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ar8XIiMMEeu-C4ErgUdd8g" label="~"/>
+    <operations xmi:id="_ar8XIyMMEeu-C4ErgUdd8g" name="appHasAGreeting">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYu-YCMMEeu-C4ErgUdd8g"/>
+      <stereotypes xmi:id="_ar8XJCMMEeu-C4ErgUdd8g" name="LegacyStyledElement">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYvlcCMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ar8XJSMMEeu-C4ErgUdd8g" name="Annotations">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYwzkCMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <visibility xmi:id="_ar8XJiMMEeu-C4ErgUdd8g" label="~"/>
+      <cardinality xmi:id="_ar8XJyMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aqp9sCMMEeu-C4ErgUdd8g" name="VehiculoAutomovilBase" abstractClass="true" subclassedBy="_aqfloCMMEeu-C4ErgUdd8g _aqgzwCMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYNZ8CMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_aqp9sSMMEeu-C4ErgUdd8g" position="146.0,-141.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aqp9siMMEeu-C4ErgUdd8g" label="+"/>
+    <attributes xmi:id="_aqp9syMMEeu-C4ErgUdd8g" name="modelo">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_Yc5FoCMMEeu-C4ErgUdd8g"/>
+      <stereotypes xmi:id="_aqp9tCMMEeu-C4ErgUdd8g" name="LegacyStyledElement">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_Yc6TwCMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <visibility xmi:id="_aqp9tSMMEeu-C4ErgUdd8g" label="#"/>
+      <cardinality xmi:id="_aqp9tiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <type xmi:id="_aqp9tyMMEeu-C4ErgUdd8g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aqp9uCMMEeu-C4ErgUdd8g" name="color">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_Yc7h4CMMEeu-C4ErgUdd8g"/>
+      <stereotypes xmi:id="_aqp9uSMMEeu-C4ErgUdd8g" name="LegacyStyledElement">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_Yc8I8CMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <visibility xmi:id="_aqp9uiMMEeu-C4ErgUdd8g" label="#"/>
+      <cardinality xmi:id="_aqp9uyMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <type xmi:id="_aqp9vCMMEeu-C4ErgUdd8g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aqp9vSMMEeu-C4ErgUdd8g" name="potencia">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_Yc8wACMMEeu-C4ErgUdd8g"/>
+      <stereotypes xmi:id="_aqp9viMMEeu-C4ErgUdd8g" name="LegacyStyledElement">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_Yc9-ICMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <visibility xmi:id="_aqp9vyMMEeu-C4ErgUdd8g" label="#"/>
+      <cardinality xmi:id="_aqp9wCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <type xmi:id="_aqp9wSMMEeu-C4ErgUdd8g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aqp9wiMMEeu-C4ErgUdd8g" name="espacio">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_Yc9-ISMMEeu-C4ErgUdd8g"/>
+      <stereotypes xmi:id="_aqp9wyMMEeu-C4ErgUdd8g" name="LegacyStyledElement">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_Yc_MQCMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <visibility xmi:id="_aqp9xCMMEeu-C4ErgUdd8g" label="#"/>
+      <cardinality xmi:id="_aqp9xSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <type xmi:id="_aqp9xiMMEeu-C4ErgUdd8g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aqp9xyMMEeu-C4ErgUdd8g" name="VehiculoAutomovilBase">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYSScCMMEeu-C4ErgUdd8g"/>
+      <keywords xmi:id="_aqp9yCMMEeu-C4ErgUdd8g" keyword="create"/>
+      <visibility xmi:id="_aqp9ySMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aqp9yiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aqp9yyMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYTgkiMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_aqp9zCMMEeu-C4ErgUdd8g" name="VehiculoAutomovilBase">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYNZ8CMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aqp9zSMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYS5gCMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqp9ziMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqp9zyMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqp90CMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYS5gSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqp90SMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqp90iMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqp90yMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYS5giMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqp91CMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqp91SMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqp91iMMEeu-C4ErgUdd8g" name="espacio">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYS5gyMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqp91yMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqp92CMMEeu-C4ErgUdd8g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aqp92SMMEeu-C4ErgUdd8g" abstractOperation="true" name="mostrarCaracteristicas">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYUHoCMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_aqp92iMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aqp92yMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aoKDUCMMEeu-C4ErgUdd8g" name="App">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYZnMCMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_aoKqYCMMEeu-C4ErgUdd8g" position="-1783.0,-127.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aoKqYSMMEeu-C4ErgUdd8g" label="+"/>
+    <attributes xmi:id="_aoKqYiMMEeu-C4ErgUdd8g" defaultValue="3" name="nAutos" staticAttribute="true">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YdF58SMMEeu-C4ErgUdd8g"/>
+      <stereotypes xmi:id="_aoKqYyMMEeu-C4ErgUdd8g" name="LegacyStyledElement">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YdHIECMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <visibility xmi:id="_aoKqZCMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aoKqZSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <type xmi:id="_aoKqZiMMEeu-C4ErgUdd8g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aoKqZyMMEeu-C4ErgUdd8g" defaultValue="2" name="nScooters" staticAttribute="true">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YdHvICMMEeu-C4ErgUdd8g"/>
+      <stereotypes xmi:id="_aoKqaCMMEeu-C4ErgUdd8g" name="LegacyStyledElement">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YdI9QCMMEeu-C4ErgUdd8g"/>
+      </stereotypes>
+      <visibility xmi:id="_aoKqaSMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aoKqaiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <type xmi:id="_aoKqayMMEeu-C4ErgUdd8g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aoKqbCMMEeu-C4ErgUdd8g" name="getGreeting">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYa1UCMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_aoKqbSMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aoKqbiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aoKqbyMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYa1USMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_aoKqcCMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aoKqcSMMEeu-C4ErgUdd8g" name="main" staticOperation="true">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYcDcCMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_aoKqciMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aoKqcyMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aoKqdCMMEeu-C4ErgUdd8g" name="args">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYcDcSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aoKqdSMMEeu-C4ErgUdd8g" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_aoKqdiMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_arfrMCMMEeu-C4ErgUdd8g" name="FabricaVehiculoGasolina" generalizations="_aro1ISMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYdRkCMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_arfrMSMMEeu-C4ErgUdd8g" position="-2129.0,385.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_arfrMiMMEeu-C4ErgUdd8g" label="+"/>
+    <operations xmi:id="_arfrMyMMEeu-C4ErgUdd8g" name="creaAutomovil">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYefsCMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_arfrNCMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_arfrNSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_arfrNiMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YcwiwCMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_arfrNyMMEeu-C4ErgUdd8g" name="VehiculoAutomovilBase">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYNZ8CMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_arfrOCMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYefsSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arfrOSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arfrOiMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arfrOyMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYefsiMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arfrPCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arfrPSMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arfrPiMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYefsyMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arfrPyMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arfrQCMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arfrQSMMEeu-C4ErgUdd8g" name="espacio">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYeftCMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arfrQiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arfrQyMMEeu-C4ErgUdd8g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_arfrRCMMEeu-C4ErgUdd8g" name="creaScooter">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYft0CMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_arfrRSMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_arfrRiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_arfrRyMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YcxJ0CMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_arfrSCMMEeu-C4ErgUdd8g" name="VehiculoScooterBase">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYVVwCMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_arfrSSMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYft0SMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arfrSiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arfrSyMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arfrTCMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYft0iMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arfrTSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arfrTiMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arfrTyMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYft0yMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arfrUCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arfrUSMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aqDgwCMMEeu-C4ErgUdd8g" name="AutomovilElectricidadEntity" generalizations="_aqfloCMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX-JYCMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_aqDgwSMMEeu-C4ErgUdd8g" position="15.0,129.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aqDgwiMMEeu-C4ErgUdd8g" label="+"/>
+    <operations xmi:id="_aqDgwyMMEeu-C4ErgUdd8g" name="AutomovilElectricidadEntity">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYAloCMMEeu-C4ErgUdd8g"/>
+      <keywords xmi:id="_aqDgxCMMEeu-C4ErgUdd8g" keyword="create"/>
+      <visibility xmi:id="_aqDgxSMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aqDgxiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aqDgxyMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYBzwSMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_aqDgyCMMEeu-C4ErgUdd8g" name="AutomovilElectricidadEntity">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX-JYCMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aqDgySMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYAloSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqDgyiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqDgyyMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqDgzCMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYAloiMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqDgzSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqDgziMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqDgzyMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYBMsCMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqDg0CMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqDg0SMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqDg0iMMEeu-C4ErgUdd8g" name="espacio">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYBMsSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqDg0yMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqDg1CMMEeu-C4ErgUdd8g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aqDg1SMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYCa0CMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_aqDg1iMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aqDg1yMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aqK1gCMMEeu-C4ErgUdd8g" name="AutomovilGasolinaEntity" generalizations="_aqgzwCMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYE3ECMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_aqK1gSMMEeu-C4ErgUdd8g" position="303.0,262.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aqK1giMMEeu-C4ErgUdd8g" label="+"/>
+    <operations xmi:id="_aqK1gyMMEeu-C4ErgUdd8g" name="AutomovilGasolinaEntity">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYGFMCMMEeu-C4ErgUdd8g"/>
+      <keywords xmi:id="_aqK1hCMMEeu-C4ErgUdd8g" keyword="create"/>
+      <visibility xmi:id="_aqK1hSMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aqK1hiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aqK1hyMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYGsRCMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_aqK1iCMMEeu-C4ErgUdd8g" name="AutomovilGasolinaEntity">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYE3ECMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aqK1iSMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYGFMSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqK1iiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqK1iyMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqK1jCMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYGFMiMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqK1jSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqK1jiMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqK1jyMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYGsQCMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqK1kCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqK1kSMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqK1kiMMEeu-C4ErgUdd8g" name="espacio">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYGsQSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqK1kyMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqK1lCMMEeu-C4ErgUdd8g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aqK1lSMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYHTUCMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_aqK1liMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aqK1lyMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_arttoCMMEeu-C4ErgUdd8g" name="IFabricaVehiculo" subclassedBy="_aro1ICMMEeu-C4ErgUdd8g _aro1ISMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYhjACMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_arttoSMMEeu-C4ErgUdd8g" position="-1932.0,167.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_arttoiMMEeu-C4ErgUdd8g" label="+"/>
+    <operations xmi:id="_arttoyMMEeu-C4ErgUdd8g" name="creaAutomovil">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYlNYCMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_arttpCMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_arttpSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_arttpiMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_Ycxw4CMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_arttpyMMEeu-C4ErgUdd8g" name="VehiculoAutomovilBase">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYNZ8CMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_arttqCMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYl0cCMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aruUsCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aruUsSMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aruUsiMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYl0cSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aruUsyMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aruUtCMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aruUtSMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYmbgCMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aruUtiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aruUtyMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aruUuCMMEeu-C4ErgUdd8g" name="espacio">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYmbgSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aruUuSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aruUuiMMEeu-C4ErgUdd8g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aruUuyMMEeu-C4ErgUdd8g" name="creaScooter">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYoQsCMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_aruUvCMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aruUvSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aruUviMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_Ycxw4SMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_aruUvyMMEeu-C4ErgUdd8g" name="VehiculoScooterBase">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYVVwCMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aruUwCMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYo3wCMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aruUwSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aruUwiMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aruUwyMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYo3wSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aruUxCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aruUxSMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aruUxiMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYo3wiMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aruUxyMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aruUyCMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_arYWcCMMEeu-C4ErgUdd8g" name="FabricaVehiculoElectricidad" generalizations="_aro1ICMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YXrOcCMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_arYWcSMMEeu-C4ErgUdd8g" position="-1657.0,506.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_arYWciMMEeu-C4ErgUdd8g" label="+"/>
+    <operations xmi:id="_arYWcyMMEeu-C4ErgUdd8g" name="creaAutomovil">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX1mgCMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_arYWdCMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_arYWdSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_arYWdiMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YcnY0CMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_arYWdyMMEeu-C4ErgUdd8g" name="VehiculoAutomovilBase">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYNZ8CMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_arYWeCMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX2NkCMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arYWeSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arYWeiMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arYWeyMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX2NkSMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arYWfCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arYWfSMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arYWfiMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX2NkiMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arYWfyMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arYWgCMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arYWgSMMEeu-C4ErgUdd8g" name="espacio">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX2NkyMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arYWgiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arYWgyMMEeu-C4ErgUdd8g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_arYWhCMMEeu-C4ErgUdd8g" name="creaScooter">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX5Q4CMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_arYWhSMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_arYWhiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_arYWhyMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_Ycn_4CMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_arYWiCMMEeu-C4ErgUdd8g" name="VehiculoScooterBase">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYVVwCMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_arYWiSMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX538CMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arYWiiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arYWiyMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arYWjCMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX6fACMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arYWjSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arYWjiMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_arYWjyMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YX7GECMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_arYWkCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_arYWkSMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aqZfACMMEeu-C4ErgUdd8g" name="ScooterGasolinaEntity" generalizations="_arIe0SMMEeu-C4ErgUdd8g">
+    <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYK9sCMMEeu-C4ErgUdd8g"/>
+    <visualProperties xmi:id="_aqZfASMMEeu-C4ErgUdd8g" position="-1030.0,142.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aqZfAiMMEeu-C4ErgUdd8g" label="+"/>
+    <operations xmi:id="_aqZfAyMMEeu-C4ErgUdd8g" name="ScooterGasolinaEntity">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYLkwCMMEeu-C4ErgUdd8g"/>
+      <keywords xmi:id="_aqZfBCMMEeu-C4ErgUdd8g" keyword="create"/>
+      <visibility xmi:id="_aqZfBSMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aqZfBiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aqZfByMMEeu-C4ErgUdd8g">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYML1SMMEeu-C4ErgUdd8g"/>
+        <type xmi:id="_aqZfCCMMEeu-C4ErgUdd8g" name="ScooterGasolinaEntity">
+          <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYK9sCMMEeu-C4ErgUdd8g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aqZfCSMMEeu-C4ErgUdd8g" name="modelo">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYML0CMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqZfCiMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqZfCyMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqZfDCMMEeu-C4ErgUdd8g" name="color">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYML0SMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqZfDSMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqZfDiMMEeu-C4ErgUdd8g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aqZfDyMMEeu-C4ErgUdd8g" name="potencia">
+        <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYML0iMMEeu-C4ErgUdd8g"/>
+        <cardinality xmi:id="_aqaGECMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+        <type xmi:id="_aqaGESMMEeu-C4ErgUdd8g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aqaGEiMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas">
+      <modelElement href="cliente1-ventas-vehiculos-app.uml#_YYMy4CMMEeu-C4ErgUdd8g"/>
+      <visibility xmi:id="_aqaGEyMMEeu-C4ErgUdd8g" label="+"/>
+      <cardinality xmi:id="_aqaGFCMMEeu-C4ErgUdd8g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

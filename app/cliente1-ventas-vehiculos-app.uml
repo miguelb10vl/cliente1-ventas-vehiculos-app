@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_XaFk0CMMEeu-C4ErgUdd8g" name="cliente1_ventas_vehiculos_app">
+    <eAnnotations xmi:id="_YFtUsCMMEeu-C4ErgUdd8g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_YFtUsSMMEeu-C4ErgUdd8g" source="codegen">
+        <details xmi:id="_YFtUsiMMEeu-C4ErgUdd8g" key="codegenDirectory" value="/app/src/main/java"/>
+        <details xmi:id="_giessCMMEeu-C4ErgUdd8g" key="AssociatedSourceCode" value="/app/src/main/java/pe/com/arland/cliente1/registro/entity/factory/FabricaVehiculoElectricidad.java;1887527328/1;/app/src/main/java/pe/com/arland/cliente1/registro/entity/AutomovilElectricidadEntity.java;4145562385/1;/app/src/main/java/pe/com/arland/cliente1/registro/entity/AutomovilGasolinaEntity.java;2366666553/1;/app/src/main/java/pe/com/arland/cliente1/registro/entity/ScooterElectricidadEntity.java;1179056136/1;/app/src/main/java/pe/com/arland/cliente1/registro/entity/ScooterGasolinaEntity.java;2588081155/1;/app/src/main/java/pe/com/arland/cliente1/registro/entity/VehiculoAutomovilBase.java;3845227402/1;/app/src/main/java/pe/com/arland/cliente1/registro/entity/VehiculoScooterBase.java;3266619547/1;/app/src/main/java/pe/com/arland/cliente1/registro/App.java;195530078/1;/app/src/main/java/pe/com/arland/cliente1/registro/entity/factory/FabricaVehiculoGasolina.java;708801191/1;/app/src/main/java/pe/com/arland/cliente1/registro/entity/factory/IFabricaVehiculo.java;637661359/1;/app/src/test/java/pe/com/arland/cliente1/registro/AppTest.java;3400218110/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_YXzxUCMMEeu-C4ErgUdd8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_YXzxUSMMEeu-C4ErgUdd8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_YXzxUiMMEeu-C4ErgUdd8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_YXzxUyMMEeu-C4ErgUdd8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_YXzxVCMMEeu-C4ErgUdd8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_YX0YYCMMEeu-C4ErgUdd8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_YX0YYSMMEeu-C4ErgUdd8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_YX0YYiMMEeu-C4ErgUdd8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_YX0_cCMMEeu-C4ErgUdd8g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YWxPgCMMEeu-C4ErgUdd8g" name="pe">
+      <packagedElement xmi:type="uml:Package" xmi:id="_YWx2kCMMEeu-C4ErgUdd8g" name="com">
+        <packagedElement xmi:type="uml:Package" xmi:id="_YWx2kSMMEeu-C4ErgUdd8g" name="arland">
+          <packagedElement xmi:type="uml:Package" xmi:id="_YWydoCMMEeu-C4ErgUdd8g" name="cliente1">
+            <packagedElement xmi:type="uml:Package" xmi:id="_YWzEsCMMEeu-C4ErgUdd8g" name="registro">
+              <packagedElement xmi:type="uml:Package" xmi:id="_YWzEsSMMEeu-C4ErgUdd8g" name="entity">
+                <packagedElement xmi:type="uml:Package" xmi:id="_YXBHICMMEeu-C4ErgUdd8g" name="factory">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_YXrOcCMMEeu-C4ErgUdd8g" name="FabricaVehiculoElectricidad">
+                    <interfaceRealization xmi:id="_YcmKsCMMEeu-C4ErgUdd8g" client="_YXrOcCMMEeu-C4ErgUdd8g" supplier="_YYhjACMMEeu-C4ErgUdd8g" contract="_YYhjACMMEeu-C4ErgUdd8g"/>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdSuQCMMEeu-C4ErgUdd8g" name="creaAutomovil" specification="_YX1mgCMMEeu-C4ErgUdd8g">
+                      <ownedParameter xmi:id="_YdT8YCMMEeu-C4ErgUdd8g" name="modelo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdT8YSMMEeu-C4ErgUdd8g" name="color">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdT8YiMMEeu-C4ErgUdd8g" name="potencia">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdT8YyMMEeu-C4ErgUdd8g" name="espacio">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdT8ZCMMEeu-C4ErgUdd8g" type="_YYNZ8CMMEeu-C4ErgUdd8g" direction="return"/>
+                      <language>java</language>
+                      <body>return new AutomovilElectricidadEntity(modelo, color, &#xD;
+   potencia, espacio); &#xD;
+  </body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdaqECMMEeu-C4ErgUdd8g" name="creaScooter" specification="_YX5Q4CMMEeu-C4ErgUdd8g">
+                      <ownedParameter xmi:id="_YdaqESMMEeu-C4ErgUdd8g" name="modelo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdaqEiMMEeu-C4ErgUdd8g" name="color">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdaqEyMMEeu-C4ErgUdd8g" name="potencia">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdaqFCMMEeu-C4ErgUdd8g" type="_YYVVwCMMEeu-C4ErgUdd8g" direction="return"/>
+                      <language>java</language>
+                      <body>return new ScooterElectricidadEntity(modelo, color, &#xD;
+   potencia); &#xD;
+  </body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:id="_YX1mgCMMEeu-C4ErgUdd8g" name="creaAutomovil" method="_YdSuQCMMEeu-C4ErgUdd8g">
+                      <ownedParameter xmi:id="_YX2NkCMMEeu-C4ErgUdd8g" name="modelo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YX2NkSMMEeu-C4ErgUdd8g" name="color">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YX2NkiMMEeu-C4ErgUdd8g" name="potencia">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YX2NkyMMEeu-C4ErgUdd8g" name="espacio">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YcnY0CMMEeu-C4ErgUdd8g" type="_YYNZ8CMMEeu-C4ErgUdd8g" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_YX5Q4CMMEeu-C4ErgUdd8g" name="creaScooter" method="_YdaqECMMEeu-C4ErgUdd8g">
+                      <ownedParameter xmi:id="_YX538CMMEeu-C4ErgUdd8g" name="modelo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YX6fACMMEeu-C4ErgUdd8g" name="color">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YX7GECMMEeu-C4ErgUdd8g" name="potencia">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_Ycn_4CMMEeu-C4ErgUdd8g" type="_YYVVwCMMEeu-C4ErgUdd8g" direction="return"/>
+                    </ownedOperation>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_YYdRkCMMEeu-C4ErgUdd8g" name="FabricaVehiculoGasolina">
+                    <interfaceRealization xmi:id="_Ycv7sCMMEeu-C4ErgUdd8g" client="_YYdRkCMMEeu-C4ErgUdd8g" supplier="_YYhjACMMEeu-C4ErgUdd8g" contract="_YYhjACMMEeu-C4ErgUdd8g"/>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdgwsCMMEeu-C4ErgUdd8g" name="creaAutomovil" specification="_YYefsCMMEeu-C4ErgUdd8g">
+                      <ownedParameter xmi:id="_YdgwsSMMEeu-C4ErgUdd8g" name="modelo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdgwsiMMEeu-C4ErgUdd8g" name="color">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdgwsyMMEeu-C4ErgUdd8g" name="potencia">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdgwtCMMEeu-C4ErgUdd8g" name="espacio">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdgwtSMMEeu-C4ErgUdd8g" type="_YYNZ8CMMEeu-C4ErgUdd8g" direction="return"/>
+                      <language>java</language>
+                      <body>return new AutomovilGasolinaEntity(modelo, color, &#xD;
+   potencia, espacio); &#xD;
+  </body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdhXwCMMEeu-C4ErgUdd8g" name="creaScooter" specification="_YYft0CMMEeu-C4ErgUdd8g">
+                      <ownedParameter xmi:id="_YdhXwSMMEeu-C4ErgUdd8g" name="modelo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdhXwiMMEeu-C4ErgUdd8g" name="color">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdhXwyMMEeu-C4ErgUdd8g" name="potencia">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YdhXxCMMEeu-C4ErgUdd8g" type="_YYVVwCMMEeu-C4ErgUdd8g" direction="return"/>
+                      <language>java</language>
+                      <body>return new ScooterGasolinaEntity(modelo, color, potencia); &#xD;
+  </body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:id="_YYefsCMMEeu-C4ErgUdd8g" name="creaAutomovil" method="_YdgwsCMMEeu-C4ErgUdd8g">
+                      <ownedParameter xmi:id="_YYefsSMMEeu-C4ErgUdd8g" name="modelo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YYefsiMMEeu-C4ErgUdd8g" name="color">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YYefsyMMEeu-C4ErgUdd8g" name="potencia">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YYeftCMMEeu-C4ErgUdd8g" name="espacio">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YcwiwCMMEeu-C4ErgUdd8g" type="_YYNZ8CMMEeu-C4ErgUdd8g" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_YYft0CMMEeu-C4ErgUdd8g" name="creaScooter" method="_YdhXwCMMEeu-C4ErgUdd8g">
+                      <ownedParameter xmi:id="_YYft0SMMEeu-C4ErgUdd8g" name="modelo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YYft0iMMEeu-C4ErgUdd8g" name="color">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YYft0yMMEeu-C4ErgUdd8g" name="potencia">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YcxJ0CMMEeu-C4ErgUdd8g" type="_YYVVwCMMEeu-C4ErgUdd8g" direction="return"/>
+                    </ownedOperation>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Interface" xmi:id="_YYhjACMMEeu-C4ErgUdd8g" name="IFabricaVehiculo">
+                    <ownedOperation xmi:id="_YYlNYCMMEeu-C4ErgUdd8g" name="creaAutomovil">
+                      <ownedParameter xmi:id="_YYl0cCMMEeu-C4ErgUdd8g" name="modelo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YYl0cSMMEeu-C4ErgUdd8g" name="color">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YYmbgCMMEeu-C4ErgUdd8g" name="potencia">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YYmbgSMMEeu-C4ErgUdd8g" name="espacio">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_Ycxw4CMMEeu-C4ErgUdd8g" type="_YYNZ8CMMEeu-C4ErgUdd8g" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_YYoQsCMMEeu-C4ErgUdd8g" name="creaScooter">
+                      <ownedParameter xmi:id="_YYo3wCMMEeu-C4ErgUdd8g" name="modelo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YYo3wSMMEeu-C4ErgUdd8g" name="color">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_YYo3wiMMEeu-C4ErgUdd8g" name="potencia">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_Ycxw4SMMEeu-C4ErgUdd8g" type="_YYVVwCMMEeu-C4ErgUdd8g" direction="return"/>
+                    </ownedOperation>
+                  </packagedElement>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YX-JYCMMEeu-C4ErgUdd8g" name="AutomovilElectricidadEntity">
+                  <generalization xmi:id="_Ycom8CMMEeu-C4ErgUdd8g" general="_YYNZ8CMMEeu-C4ErgUdd8g"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdbRICMMEeu-C4ErgUdd8g" name="AutomovilElectricidadEntity" specification="_YYAloCMMEeu-C4ErgUdd8g">
+                    <ownedParameter xmi:id="_YdbRISMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YdbRIiMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YdbRIyMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YdbRJCMMEeu-C4ErgUdd8g" name="espacio">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YdbRJSMMEeu-C4ErgUdd8g" type="_YX-JYCMMEeu-C4ErgUdd8g" direction="return"/>
+                    <language>java</language>
+                    <body>super(modelo, color, potencia, espacio);&#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ydb4MCMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas" specification="_YYCa0CMMEeu-C4ErgUdd8g">
+                    <language>java</language>
+                    <body>System.out.println(&#xD;
+   &quot;Automovil electrico de modelo: &quot; + modelo +  &#xD;
+   &quot; de color: &quot; + color + &quot; de potencia: &quot; + &#xD;
+   potencia + &quot; de espacio: &quot; + espacio); &#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YYAloCMMEeu-C4ErgUdd8g" name="AutomovilElectricidadEntity" method="_YdbRICMMEeu-C4ErgUdd8g">
+                    <eAnnotations xmi:id="_YYBMsiMMEeu-C4ErgUdd8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YYBzwCMMEeu-C4ErgUdd8g" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YYAloSMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYAloiMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYBMsCMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYBMsSMMEeu-C4ErgUdd8g" name="espacio">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYBzwSMMEeu-C4ErgUdd8g" type="_YX-JYCMMEeu-C4ErgUdd8g" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YYCa0CMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas" method="_Ydb4MCMMEeu-C4ErgUdd8g"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YYE3ECMMEeu-C4ErgUdd8g" name="AutomovilGasolinaEntity">
+                  <generalization xmi:id="_YcpOACMMEeu-C4ErgUdd8g" general="_YYNZ8CMMEeu-C4ErgUdd8g"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ydb4MSMMEeu-C4ErgUdd8g" name="AutomovilGasolinaEntity" specification="_YYGFMCMMEeu-C4ErgUdd8g">
+                    <ownedParameter xmi:id="_Ydb4MiMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Ydb4MyMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Ydb4NCMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Ydb4NSMMEeu-C4ErgUdd8g" name="espacio">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Ydb4NiMMEeu-C4ErgUdd8g" type="_YYE3ECMMEeu-C4ErgUdd8g" direction="return"/>
+                    <language>java</language>
+                    <body>super(modelo,  color, potencia, espacio);&#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdcfQCMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas" specification="_YYHTUCMMEeu-C4ErgUdd8g">
+                    <language>java</language>
+                    <body>System.out.println( &#xD;
+   &quot;Automovil de gasolina de modelo: &quot; + modelo +  &#xD;
+   &quot; de color: &quot; + color + &quot; de potencia: &quot; + &#xD;
+   potencia + &quot; de espacio: &quot; + espacio); &#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YYGFMCMMEeu-C4ErgUdd8g" name="AutomovilGasolinaEntity" method="_Ydb4MSMMEeu-C4ErgUdd8g">
+                    <eAnnotations xmi:id="_YYGsQiMMEeu-C4ErgUdd8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YYGsQyMMEeu-C4ErgUdd8g" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YYGFMSMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYGFMiMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYGsQCMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYGsQSMMEeu-C4ErgUdd8g" name="espacio">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYGsRCMMEeu-C4ErgUdd8g" type="_YYE3ECMMEeu-C4ErgUdd8g" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YYHTUCMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas" method="_YdcfQCMMEeu-C4ErgUdd8g"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YYH6YCMMEeu-C4ErgUdd8g" name="ScooterElectricidadEntity">
+                  <generalization xmi:id="_YcpOASMMEeu-C4ErgUdd8g" general="_YYVVwCMMEeu-C4ErgUdd8g"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdcfQSMMEeu-C4ErgUdd8g" name="ScooterElectricidadEntity" specification="_YYJIgCMMEeu-C4ErgUdd8g">
+                    <ownedParameter xmi:id="_YdcfQiMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YdcfQyMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YdcfRCMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YdcfRSMMEeu-C4ErgUdd8g" type="_YYH6YCMMEeu-C4ErgUdd8g" direction="return"/>
+                    <language>java</language>
+                    <body>super(modelo, color, potencia);&#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YddGUCMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas" specification="_YYKWoCMMEeu-C4ErgUdd8g">
+                    <language>java</language>
+                    <body>System.out.println(&quot;Scooter electrica de modelo: &quot; + &#xD;
+   modelo + &quot; de color: &quot; + color +  &#xD;
+   &quot; de potencia: &quot; + potencia); &#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YYJIgCMMEeu-C4ErgUdd8g" name="ScooterElectricidadEntity" method="_YdcfQSMMEeu-C4ErgUdd8g">
+                    <eAnnotations xmi:id="_YYJvkyMMEeu-C4ErgUdd8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YYJvlCMMEeu-C4ErgUdd8g" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YYJvkCMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYJvkSMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYJvkiMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYJvlSMMEeu-C4ErgUdd8g" type="_YYH6YCMMEeu-C4ErgUdd8g" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YYKWoCMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas" method="_YddGUCMMEeu-C4ErgUdd8g"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YYK9sCMMEeu-C4ErgUdd8g" name="ScooterGasolinaEntity">
+                  <generalization xmi:id="_Ycp1ECMMEeu-C4ErgUdd8g" general="_YYVVwCMMEeu-C4ErgUdd8g"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YddtYCMMEeu-C4ErgUdd8g" name="ScooterGasolinaEntity" specification="_YYLkwCMMEeu-C4ErgUdd8g">
+                    <ownedParameter xmi:id="_YddtYSMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YddtYiMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YddtYyMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YddtZCMMEeu-C4ErgUdd8g" type="_YYK9sCMMEeu-C4ErgUdd8g" direction="return"/>
+                    <language>java</language>
+                    <body>super(modelo, color, potencia); &#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdeUcCMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas" specification="_YYMy4CMMEeu-C4ErgUdd8g">
+                    <language>java</language>
+                    <body>System.out.println(&quot;Scooter de gasolina de modelo: &quot; + &#xD;
+   modelo + &quot; de color: &quot; + color +  &#xD;
+   &quot; de potencia: &quot; + potencia); &#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YYLkwCMMEeu-C4ErgUdd8g" name="ScooterGasolinaEntity" method="_YddtYCMMEeu-C4ErgUdd8g">
+                    <eAnnotations xmi:id="_YYML0yMMEeu-C4ErgUdd8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YYML1CMMEeu-C4ErgUdd8g" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YYML0CMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYML0SMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYML0iMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYML1SMMEeu-C4ErgUdd8g" type="_YYK9sCMMEeu-C4ErgUdd8g" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YYMy4CMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas" method="_YdeUcCMMEeu-C4ErgUdd8g"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YYNZ8CMMEeu-C4ErgUdd8g" name="VehiculoAutomovilBase" isAbstract="true">
+                  <ownedAttribute xmi:id="_Yc5FoCMMEeu-C4ErgUdd8g" name="modelo" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_Yc7h4CMMEeu-C4ErgUdd8g" name="color" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_Yc8wACMMEeu-C4ErgUdd8g" name="potencia" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_Yc9-ISMMEeu-C4ErgUdd8g" name="espacio" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yde7gCMMEeu-C4ErgUdd8g" name="VehiculoAutomovilBase" specification="_YYSScCMMEeu-C4ErgUdd8g">
+                    <ownedParameter xmi:id="_Yde7gSMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Yde7giMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Yde7gyMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Yde7hCMMEeu-C4ErgUdd8g" name="espacio">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Yde7hSMMEeu-C4ErgUdd8g" type="_YYNZ8CMMEeu-C4ErgUdd8g" direction="return"/>
+                    <language>java</language>
+                    <body>this.modelo = modelo; &#xD;
+ this.color = color; &#xD;
+ this.potencia = potencia; &#xD;
+ this.espacio = espacio; &#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YYSScCMMEeu-C4ErgUdd8g" name="VehiculoAutomovilBase" method="_Yde7gCMMEeu-C4ErgUdd8g">
+                    <eAnnotations xmi:id="_YYTgkCMMEeu-C4ErgUdd8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YYTgkSMMEeu-C4ErgUdd8g" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YYS5gCMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYS5gSMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYS5giMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYS5gyMMEeu-C4ErgUdd8g" name="espacio">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYTgkiMMEeu-C4ErgUdd8g" type="_YYNZ8CMMEeu-C4ErgUdd8g" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YYUHoCMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas" isAbstract="true"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YYVVwCMMEeu-C4ErgUdd8g" name="VehiculoScooterBase" isAbstract="true">
+                  <ownedAttribute xmi:id="_YdAaYCMMEeu-C4ErgUdd8g" name="modelo" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_YdC2oCMMEeu-C4ErgUdd8g" name="color" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_YdEr0CMMEeu-C4ErgUdd8g" name="potencia" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdfikCMMEeu-C4ErgUdd8g" name="VehiculoScooterBase" specification="_YYXK8CMMEeu-C4ErgUdd8g">
+                    <ownedParameter xmi:id="_YdfikSMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YdfikiMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YdfikyMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YdfilCMMEeu-C4ErgUdd8g" type="_YYVVwCMMEeu-C4ErgUdd8g" direction="return"/>
+                    <language>java</language>
+                    <body>this.modelo = modelo; &#xD;
+ this.color = color; &#xD;
+ this.potencia = potencia; &#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YYXK8CMMEeu-C4ErgUdd8g" name="VehiculoScooterBase" method="_YdfikCMMEeu-C4ErgUdd8g">
+                    <eAnnotations xmi:id="_YYXK9CMMEeu-C4ErgUdd8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YYXK9SMMEeu-C4ErgUdd8g" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YYXK8SMMEeu-C4ErgUdd8g" name="modelo">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYXK8iMMEeu-C4ErgUdd8g" name="color">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYXK8yMMEeu-C4ErgUdd8g" name="potencia">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YYXK9iMMEeu-C4ErgUdd8g" type="_YYVVwCMMEeu-C4ErgUdd8g" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YYXyACMMEeu-C4ErgUdd8g" name="mostrarCaracteristicas" isAbstract="true"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_YYZnMCMMEeu-C4ErgUdd8g" name="App">
+                <ownedAttribute xmi:id="_YdF58SMMEeu-C4ErgUdd8g" name="nAutos" isStatic="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_YdGhACMMEeu-C4ErgUdd8g" value="3"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_YdHvICMMEeu-C4ErgUdd8g" name="nScooters" isStatic="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_YdHvISMMEeu-C4ErgUdd8g" value="2"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdgJoCMMEeu-C4ErgUdd8g" name="getGreeting" specification="_YYa1UCMMEeu-C4ErgUdd8g">
+                  <ownedParameter xmi:id="_YdgJoSMMEeu-C4ErgUdd8g" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>Scanner reader = new Scanner(System.in); 
+     IFabricaVehiculo fabrica; 
+     VehiculoAutomovilBase[] autos = new VehiculoAutomovilBase[nAutos]; 
+     VehiculoScooterBase[] scooters = new VehiculoScooterBase[nScooters]; 
+     System.out.print(&quot;Desea utilizar &quot; + 
+       &quot;vehiculos electricos (1) o a gasolina (2):&quot;); 
+     String eleccion = reader.next(); 
+     if (eleccion.equals(&quot;1&quot;)) 
+     { 
+       fabrica = new FabricaVehiculoElectricidad(); 
+     } 
+     else 
+     { 
+       fabrica = new FabricaVehiculoGasolina(); 
+     } 
+     for (int index = 0; index &lt; nAutos; index++) 
+       autos[index] = fabrica.creaAutomovil(&quot;estandar&quot;,  
+         &quot;amarillo&quot;, 6+index, 3.2); 
+     for (int index = 0; index &lt; nScooters; index++) 
+       scooters[index] = fabrica.creaScooter(&quot;clasico&quot;,  
+         &quot;rojo&quot;, 2+index); 
+     for (VehiculoAutomovilBase auto: autos) 
+       auto.mostrarCaracteristicas(); 
+     for (VehiculoScooterBase scooter: scooters) 
+       scooter.mostrarCaracteristicas(); 
+ 	
+ 	return &quot;Hello World!&quot;;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YdgJoiMMEeu-C4ErgUdd8g" name="main" specification="_YYcDcCMMEeu-C4ErgUdd8g">
+                  <ownedParameter xmi:id="_YdgJoyMMEeu-C4ErgUdd8g" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YdgJpCMMEeu-C4ErgUdd8g" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(new App().getGreeting());
+ </body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_YYa1UCMMEeu-C4ErgUdd8g" name="getGreeting" method="_YdgJoCMMEeu-C4ErgUdd8g">
+                  <ownedParameter xmi:id="_YYa1USMMEeu-C4ErgUdd8g" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_YYcDcCMMEeu-C4ErgUdd8g" name="main" isStatic="true" method="_YdgJoiMMEeu-C4ErgUdd8g">
+                  <ownedParameter xmi:id="_YYcDcSMMEeu-C4ErgUdd8g" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YYcqgCMMEeu-C4ErgUdd8g" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_YYrUACMMEeu-C4ErgUdd8g" name="AppTest" visibility="package">
+                <eAnnotations xmi:id="_YYuXUCMMEeu-C4ErgUdd8g" source="http://ns.yatta.de/umllab">
+                  <contents xmi:type="ecore:EAnnotation" xmi:id="_YYuXUSMMEeu-C4ErgUdd8g" source="codegen">
+                    <details xmi:id="_YYuXUiMMEeu-C4ErgUdd8g" key="codegenDirectory" value="/app/src/test/java"/>
+                  </contents>
+                </eAnnotations>
+                <ownedOperation xmi:id="_YYu-YCMMEeu-C4ErgUdd8g" name="appHasAGreeting" visibility="package"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YXXscCMMEeu-C4ErgUdd8g" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_YXXscSMMEeu-C4ErgUdd8g" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_YcrqQCMMEeu-C4ErgUdd8g" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YXdzECMMEeu-C4ErgUdd8g" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_YXdzESMMEeu-C4ErgUdd8g" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_YXeaICMMEeu-C4ErgUdd8g" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_YXeaISMMEeu-C4ErgUdd8g" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_YcyX8CMMEeu-C4ErgUdd8g" name="Test"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_YczmESMMEeu-C4ErgUdd8g" name="Assertions"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_YFvw8CMMEeu-C4ErgUdd8g">
+      <eAnnotations xmi:id="_YF2eoCMMEeu-C4ErgUdd8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_YF_okCMMEeu-C4ErgUdd8g" base_Package="_XaFk0CMMEeu-C4ErgUdd8g">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YYvlcCMMEeu-C4ErgUdd8g" base_Element="_YYu-YCMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:Annotations xmi:id="_YYwzkCMMEeu-C4ErgUdd8g" base_Element="_YYu-YCMMEeu-C4ErgUdd8g">
+    <annotations xmi:id="_YYwzkSMMEeu-C4ErgUdd8g" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_YcuGgCMMEeu-C4ErgUdd8g" base_Element="_YcrqQCMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:Reference xmi:id="_YczmECMMEeu-C4ErgUdd8g" base_Element="_YcyX8CMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:Reference xmi:id="_Yc2CUCMMEeu-C4ErgUdd8g" base_Element="_YczmESMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yc6TwCMMEeu-C4ErgUdd8g" base_Element="_Yc5FoCMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yc8I8CMMEeu-C4ErgUdd8g" base_Element="_Yc7h4CMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yc9-ICMMEeu-C4ErgUdd8g" base_Element="_Yc8wACMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yc_MQCMMEeu-C4ErgUdd8g" base_Element="_Yc9-ISMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YdBogCMMEeu-C4ErgUdd8g" base_Element="_YdAaYCMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YdDdsCMMEeu-C4ErgUdd8g" base_Element="_YdC2oCMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YdF58CMMEeu-C4ErgUdd8g" base_Element="_YdEr0CMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YdHIECMMEeu-C4ErgUdd8g" base_Element="_YdF58SMMEeu-C4ErgUdd8g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YdI9QCMMEeu-C4ErgUdd8g" base_Element="_YdHvICMMEeu-C4ErgUdd8g"/>
+</xmi:XMI>
