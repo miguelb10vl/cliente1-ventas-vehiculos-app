@@ -127,5 +127,9 @@ task testear {
 }
 tasks.named('test') {
     // Use junit platform for unit tests.
-    useJUnitPlatform()
+    //useJUnitPlatform()
+    useJUnitPlatform{
+     includeTags 'Individual'
+     //excludeTags 'Individual'
+    }
 }

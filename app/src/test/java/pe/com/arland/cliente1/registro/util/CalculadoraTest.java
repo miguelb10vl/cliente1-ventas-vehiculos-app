@@ -8,29 +8,29 @@ class CalculadoraTest {
 
 	@Test
 	void testSuma() {
-		double esperado = 50;
+		double esperado = 50;// 20 +30
 		double resultado = Calculadora.suma(20, 30);
 		assertEquals(esperado, resultado);
 	}
 
 	@Test
 	void testResta() {
-		double esperado = 10;
+		double esperado = 10;// 30 -20 
 		double resultado = Calculadora.resta(30, 20);
 		assertEquals(esperado, resultado);
 	}
 
 	@Test
 	void testMultiplicacion() {
-		double esperado = 50;
-		double resultado = Calculadora.multiplicacion(10, 5);
+		double esperado = 50;// 10 * 5
+		double resultado = Calculadora.multiplicacion(10,5);
 		assertEquals(esperado, resultado);
 	}
 
 	@Test
 	void testDivision() {
-		double esperado = 5;
-		double resultado = Calculadora.division(50, 10);
+		double esperado = 5;// 50 / 10
+		double resultado = Calculadora.division(50,10);
 		assertEquals(esperado, resultado);
 	}
 
