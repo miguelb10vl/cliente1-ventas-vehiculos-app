@@ -50,7 +50,6 @@ class AppTest {
 	}
 
 	@DisplayName ("Metodo DOS Deshabilitado ")
-	@Disabled
 	@Test
 	void testTwo() {
 		System.out.println("TEST 2");
